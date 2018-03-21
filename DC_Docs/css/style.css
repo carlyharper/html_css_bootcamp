@@ -1,0 +1,98 @@
+/*
+1. making input not move with nav bar
+2. making nav bar organicaly responsive
+3.  
+*/
+
+body {
+    margin: 0px;
+    padding: 10px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.sideNav {
+    font-weight: 250;
+    color: #fff;
+    background-color: #57585b;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    padding: 1em;
+    float: left;
+    box-shadow: 5px 1px #ddd;
+}
+
+.sideNav a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.sideNav a:hover {
+    color: #fff;
+}
+
+.sideNavTop {
+    padding-bottom: 50px;
+    text-align: left;
+
+}
+.sideNavTop input {
+    background-color: #57585b;
+    color: #ddd;
+    text-align: left;
+    width: 90%;
+}
+
+.sideNavMiddle {
+    position: relative;
+    text-align: left;
+}
+
+.sideNavFooter {
+    text-align: center;
+    color: #ddd;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 5px 0;
+}
+
+.mainPage {
+    display: block;
+    margin-left: 22%;
+    padding-right: 5%;
+}
+
+.mainPageTitle {
+    font-size: 15px;
+    font-weight: 50;
+    margin: 0 0 0 0;
+    color: #57585b;
+}
+
+.DCTitle {
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.mainPageComment {
+    border: solid;
+    border-width: .05em .05em .05em 0.5em;
+    padding: 1em;
+    background-color: #d8d0c1;
+}
+
+.quoteAuthor {
+    float: right;
+}
